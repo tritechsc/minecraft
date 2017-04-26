@@ -9,8 +9,8 @@ https://www.raspberrypi.org/learning/getting-started-with-minecraft-pi/worksheet
 Partlist:
 - Raspberry Pi
 - Class 10 mini sd card.
-- hdmi cable to hdmi minitor.
-- Minitor or TV
+- hdmi cable to hdmi minitor
+- Minitor or TV with hdmi 
 - Keyboard
 - Mouse
 
