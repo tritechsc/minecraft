@@ -14,7 +14,7 @@ Partlist:
 - Minitor or TV with hdmi 
 - Keyboard
 - Mouse
-
+<pre>
 
 API Blocks
 =======================
@@ -119,7 +119,7 @@ import mcpi.block as block
 you can call up the blocks in the “API Block List” using the following syntax :
 
 block.MELON.id
-
+</pre>
 
 
 
