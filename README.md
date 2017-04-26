@@ -5,6 +5,7 @@ https://www.raspberrypi.org/learning/getting-started-with-minecraft-pi/
 
 https://www.raspberrypi.org/learning/getting-started-with-minecraft-pi/worksheet/
 
+http://www.stuffaboutcode.com/p/minecraft-api-reference.html
 
 Partlist:
 - Raspberry Pi
