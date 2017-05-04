@@ -5,7 +5,7 @@ mc = Minecraft.create()
 
 mc.postToChat("Hello world")
 x, y, z = mc.player.getTilePos()                                                  
-x, y, z = mc.player.getPos()
+#x, y, z = mc.player.getPos()
 
 mc.postToChat("LEAVES")
 mc.setBlock(x+1, y, z, 18)
