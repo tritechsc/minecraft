@@ -1,4 +1,7 @@
 # Rasberry Pi Minecraft Respository 
+Download the Raspbain Debian Image from the following site:
+https://www.raspberrypi.org/downloads/
+
 This repository is for using Minecraft to teach and experiment with coding in Python and Networking.
 
 https://www.raspberrypi.org/learning/getting-started-with-minecraft-pi/
