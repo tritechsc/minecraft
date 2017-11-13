@@ -12,6 +12,9 @@ https://www.raspberrypi.org/learning/getting-started-with-minecraft-pi/worksheet
 
 http://www.stuffaboutcode.com/p/minecraft-api-reference.html
 
+Screenshots: cd ~/ ;git clone https://github.com/AndrewFromMelbourne/raspi2png;
+Select and copy then pase in tty
+
 Partlist:
 - Raspberry Pi
 - Class 10 mini sd card.
