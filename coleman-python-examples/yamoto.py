@@ -11,7 +11,7 @@ def clear_with_air(mc, x, y, z):
 	air = 0
 	mc.setBlocks(x-50, y-10, z, x+60, y+50, z+50, air) 
 
-def fin_a(mx,x,y,z):
+def fin_a(mc,x,y,z):
 	gold = 41
 	mc.setBlocks(x, y-1, z+21, x, y-1, z+22, gold)
 	mc.setBlock(x, y-2, z+20, gold)
@@ -20,21 +20,21 @@ def fin_a(mx,x,y,z):
 	mc.setBlocks(x-1, y-3, z+21, x+1, y-3, z+21, gold)
 	mc.setBlocks(x-1, y-3, z+22, x+1, y-3, z+22, gold)
 	
-def fin_b(mx,x,y,z):  # down fin
+def fin_b(mc,x,y,z):  # down fin
 	iron = 42
 	mc.setBlock(x, y, z+2, iron)
 	mc.setBlock(x, y-1, z+2, iron)
 	mc.setBlock(x, y-2, z+1, iron)
 	mc.setBlocks(x-1, y-2, z+2, x+1, y-2, z+2, iron)
 	
-def fin_c(mx,x,y,z):  # down fin
+def fin_c(mc,x,y,z):  # down fin
 	iron = 42
 	mc.setBlock(x, y, z+2, iron)
 	mc.setBlock(x, y+1, z+2, iron)
 	mc.setBlock(x, y+2, z+1, iron)
 	mc.setBlocks(x-1, y+2, z+2, x+1, y+2, z+2, iron)
 
-def bridge(m,x,y,z):
+def bridge(mc,x,y,z):
 	gold = 41
 	iron   =  42
 	obs = 49
@@ -88,7 +88,6 @@ fin_a(mc,x,y,z)
 fin_b(mc,x,y+2,z+50)
 fin_c(mc,x,y+5,z+50)
 bridge(mc,x,y+5,z+20)
-
 mc.player.setPos(-17,30, 20)
 sleep(2)
 mc.player.setPos(-5,21, -3)
