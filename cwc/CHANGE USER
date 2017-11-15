@@ -1,0 +1,3 @@
+usermod -a -G adm,dialout,cdrom,sudo,
+				udio,video,plugdev,games,
+					users,input,netdev yournewsuername
